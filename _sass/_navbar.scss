@@ -50,6 +50,7 @@
 
     a:hover {
       background-color: $sidebarHoverBackground;
+      border-left: 10px solid darken($sidebarBorder, 10%);
     }
 
     a:last-of-type {
