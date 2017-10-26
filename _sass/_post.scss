@@ -10,39 +10,17 @@ article.post, article.page {
         border-bottom: 1px solid black;
     }
 
-    h2 {
-        font-size: 1.6em;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+    h2, h3 { margin: 15px 0px; }
+    h2 { font-size: 1.6em; }
+    h3 { font-size: 1.4em; }
     
-    img {
-        margin: 15px 0px;
-    }
-
-    p, ul, ol {
-        margin: 10px 0px;
-    }
-
-    ul, ol {
-        margin-left: 50px;
-    }
-
-    ul li {
-        list-style-type: disc;
-    }
-
-    ol li {
-        list-style-type: decimal;
-    }
-
-    em {
-        font-style: italic;
-    }
-
-    strong {
-        font-weight: 600;
-    }
+    img { margin: 15px 0px; }
+    p, ul, ol { margin: 10px 0px; }
+    ul, ol { margin-left: 50px; }
+    ul li { list-style-type: disc; }
+    ol li { list-style-type: decimal; }
+    em { font-style: italic; }
+    strong { font-weight: 600; }
 
     blockquote {
         margin-left: 25px;

@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Who am I?
 
-### More Information
+I'm currently a software develop in the Raleigh RTP area. These days I'm mainly working in TypeScript with express API's, EmberJS for front end frameworks, and am beginning to dabble in Perl and Mojolicious as the need arises.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Why blog?
+
+I feel like I learn new things every day both at work and with personal projects at home and I realize how much I realize on tutorials, blog posts, and stack overflow to get me through the day. This is my way of conributing back to the wonderful open source community.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jeremyoverman@gmail.com](mailto:jeremyoverman@gmail.com)
