@@ -1,0 +1,57 @@
+article.post, article.page {
+    margin-top: 15px;
+    line-height: 1.5em;
+
+    h1 {
+        font-size: 1.8em;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid black;
+    }
+
+    h2 {
+        font-size: 1.6em;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    img {
+        margin: 15px 0px;
+    }
+
+    p, ul, ol {
+        margin: 10px 0px;
+    }
+
+    ul, ol {
+        margin-left: 50px;
+    }
+
+    ul li {
+        list-style-type: disc;
+    }
+
+    ol li {
+        list-style-type: decimal;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    strong {
+        font-weight: 600;
+    }
+
+    blockquote {
+        margin-left: 25px;
+        padding-left: 15px;
+        border-left: 15px solid $navyBlue;
+    }
+
+    .date {
+        margin: 50px 0px;
+        font-style: italic;
+    }
+}

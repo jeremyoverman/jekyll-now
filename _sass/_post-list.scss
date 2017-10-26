@@ -1,0 +1,45 @@
+#posts {
+    margin-top: 25px;
+
+    article {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid $sidebarBackground;
+        border-radius: 5px;
+
+        .content {
+            padding: 15px;
+
+            h1 {
+                > a {
+                    color: black;
+                }
+
+                font-size: 1.6em;
+                margin-bottom: 20px;
+            }
+
+            .entry {
+                margin-bottom: 15px;
+            }
+        }
+
+        .date {
+            display: flex;
+            flex-direction: column;
+            padding: 0px 15px;
+            text-align: center;
+            font-size: 1.4em;
+            color: $sidebarTextColor;
+            background-color: $sidebarBackground;
+
+            .pad {
+                flex-grow: 1;
+            }
+
+            .month, .day, .year {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

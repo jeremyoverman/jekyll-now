@@ -1,19 +1,15 @@
-$background: #f9f9f9;
-$border: darken($background, 15%);
-$hoverBackground: darken($background, 5%);
-
-$textColor: contrast($background);
-
 #sidebar {
-  color: $textColor !important;
-  background-color: $background;
+  display: flex;
+  flex-direction: column;
+  color: $sidebarTextColor !important;
+  background-color: $sidebarBackground;
   height: 100%;
   position: fixed;
   padding-top: 15px;
-  border-right: 1px solid $border;
+  border-right: 1px solid $sidebarBorder;
 
   a {
-    color: $textColor !important;
+    color: $sidebarTextColor !important;
 
     &:hover {
       text-decoration: none;
@@ -39,6 +35,7 @@ $textColor: contrast($background);
   }
 
   nav {
+    flex-grow: 1;
     margin: 15px -15px 0px -15px;
 
     a {
@@ -48,15 +45,20 @@ $textColor: contrast($background);
       height: 35px;
       color: white;
       text-decoration: none !important;
-      border-top: 1px solid $border;
+      border-top: 1px solid $sidebarBorder;
     }
 
     a:hover {
-      background-color: $hoverBackground;
+      background-color: $sidebarHoverBackground;
     }
 
     a:last-of-type {
-      border-bottom: 1px solid $border;
+      border-bottom: 1px solid $sidebarBorder;
     }
+  }
+
+  #social {
+    text-align: center;
+    margin-bottom: 25px;
   }
 }

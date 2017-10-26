@@ -1,16 +1,29 @@
 ---
 ---
 
-@import "functions";
-@import "reset";
-@import "variables";
+// Color Names
+$navyBlue: #152679;
+$lightGray: #EEEEEE;
+$darkerGray: #DDDDDD;
 
+@import "reset";
+@import "functions";
 @import "highlights";
 @import "svg-icons";
-@import "navbar";
+
+// Page colors
+$pageBackground: $lightGray;
+
+// Sidebar
+$sidebarBackground: $darkerGray;
+$sidebarBorder: darken($sidebarBackground, 15%);
+$sidebarHoverBackground: darken($sidebarBackground, 5%);
+$sidebarTextColor: contrast($sidebarBackground);
 
 body, html {
+  background-color: $pageBackground;
   height: 100%;
+  font-family: arial;
 }
 
 #masterContainer {
@@ -20,3 +33,7 @@ body, html {
     height: inherit;
   }
 }
+
+@import "navbar";
+@import "post-list";
+@import "post";

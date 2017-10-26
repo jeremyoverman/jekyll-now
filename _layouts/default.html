@@ -24,21 +24,27 @@
     <div id="masterContainer" class="container-fluid">
       <div id="topRow" class="row">
         <div id="sidebar" class="col-sm-4 col-md-2">
-          <header class="masthead clearfix">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <div id="headerImage">
-              <a href="{{ site.baseurl }}/" class="site-avatar">
-                <img src="{{ site.baseurl }}/images/jeremy.jpg" />
-              </a>
-            </div>
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <div id="headerImage">
+            <a href="{{ site.baseurl }}/" class="site-avatar">
+              <img src="{{ site.baseurl }}/images/jeremy.jpg" />
+            </a>
+          </div>
 
-            <nav>
-              <a href="{{ site.baseurl }}/">Blog</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-            </nav>
-          </header>
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+          <div id="social">
+            <a href="https://github.com/jeremyoverman/">
+              <div class="svg-icon github"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/jeremyoverman/">
+              <div class="svg-icon linkedin"></div>
+            </a>
+          </div>
         </div>
-        <div id="main" role="main" class="col-sm-8 col-md-8 col-sm-offset-4 col-md-offset-2">
+        <div id="main" role="main" class="col-sm-8 col-sm-offset-4 col-md-6 col-md-offset-4">
           {{ content }}
         </div>
       </div>
