@@ -10,7 +10,7 @@ article.post, article.page {
         border-bottom: 1px solid black;
     }
 
-    h2, h3 { margin: 15px 0px; }
+    h2, h3 { margin: 25px 0px; }
     h2 { font-size: 1.6em; }
     h3 { font-size: 1.4em; }
     
@@ -25,7 +25,7 @@ article.post, article.page {
     blockquote {
         margin-left: 25px;
         padding-left: 15px;
-        border-left: 15px solid $navyBlue;
+        border-left: 15px solid $sidebarBackground;
     }
 
     .date {

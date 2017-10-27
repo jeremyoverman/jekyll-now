@@ -11,7 +11,7 @@ pre.highlight {
   border: 1px solid #ddd;
   margin: 20px 0 20px 0;
   overflow: scroll;
-  height: 500px;
+  max-height: 500px;
 }
 
 code {
