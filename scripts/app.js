@@ -8,7 +8,7 @@ $(() => {
     let toolbarHeight = toolbarRow.height();
 
     menuButton.click(() => {
-        sidebar.toggleClass('hidden-xs');
+        sideBar.toggleClass('hidden-xs');
     });
 
     // Handle showing/hiding the menu bar
@@ -18,7 +18,7 @@ $(() => {
     });
 
     setInterval(() => {
-        if (!didScroll) return;
+        if (!didScroll || sideBar.is(':visible')) return;
         didScroll = false;
 
         let tolerance = 30;
