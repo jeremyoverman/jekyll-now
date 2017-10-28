@@ -33,9 +33,19 @@ article.post, article.page {
         border-left: 15px solid $sidebarBackground;
     }
 
-    .date {
+    .article-meta {
+        display: flex;
+        flex-direction: row;
         margin: 15px 0px 30px 0px;
-        font-style: italic;
+
+        .date {
+            flex-grow: 1;
+            font-style: italic;
+        }
+
+        .share {
+            flex-grow: 0;
+        }
     }
 
     .comments {

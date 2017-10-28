@@ -318,7 +318,7 @@ semantic-release ERR! init No npm token specified. ENONPMTOKEN
 
 ### Generate a GitHub API token
 
-First things first, we'll need to go to our [GitHub account settings](https://github.com/settings/tokens) and create a unique token for semantic-version to update with.
+First things first, we'll need to go to our [GitHub account settings](https://github.com/settings/tokens) and create a unique token for semantic-release to update with.
 
 Once there, select "Generate New Token." This will give you a page requesting a description and the scope of the permissions the token will allow.
 
