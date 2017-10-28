@@ -34,6 +34,12 @@ body, html {
   }
 }
 
+#main {
+  @media screen and (max-width: 768px) {
+    margin-top: 75px;
+  }
+}
+
 @import "navbar";
 @import "post-list";
 @import "post";

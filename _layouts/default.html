@@ -9,6 +9,9 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -17,13 +20,17 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+    <script src="{{ site.baseurl }}/scripts/app.js"></script>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
     <div id="masterContainer" class="container-fluid">
+      <div id="toolbarRow" class="visible-xs-block">
+        <img id="menuButton" src="{{ site.baseurl }}/images/menu.svg" alt="menu"/>
+      </div>
       <div id="topRow" class="row">
-        <div id="sidebar" class="col-sm-4 col-md-2">
+        <div id="sidebar" class="hidden-xs col-sm-4 col-md-2">
           <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
           <div id="headerImage">
             <a href="{{ site.baseurl }}/" class="site-avatar">

@@ -1,12 +1,36 @@
+#toolbarRow {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 200;
+  background-color: $sidebarBackground;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+
+  #menuButton {
+    margin: 10px 15px;
+    width: 25px;
+    flex-grow: 1;
+  }
+}
+
 #sidebar {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  z-index: 100;
   color: $sidebarTextColor !important;
   background-color: $sidebarBackground;
   height: 100%;
-  position: fixed;
   padding-top: 15px;
   border-right: 1px solid $sidebarBorder;
+
+  @media screen and (max-width: 768px) {
+    top: 50px;
+    height: calc(100% - 50px);
+  }
 
   a {
     color: $sidebarTextColor !important;
