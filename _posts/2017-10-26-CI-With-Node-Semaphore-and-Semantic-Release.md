@@ -220,7 +220,7 @@ We can see now on a pull request, semaphore will give us a nice view of whether 
 
 > When semantic-release is set up it will do that after every successful continuous integration build of your master branch (or any other branch you specify) and publish the new version for you. This way no human is directly involved in the release process and your releases are guaranteed to be unromantic and unsentimental.
 
-Semantic version will let us name our commits something meaningful, determine how our package versions hould be updated, we can then publish to npm, then it will create a GitHub release for us!
+Semantic version will let us name our commits something meaningful, determine how our package versions should be updated, we can then publish to npm, then it will create a GitHub release for us!
 
 Without further ado, let's get started.
 
